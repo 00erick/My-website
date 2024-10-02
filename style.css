@@ -1,0 +1,317 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=New+Amsterdam&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+
+
+
+:root{
+    --cor0: #0540F2;
+    --cor1: #115D8C;
+    --cor2: #2180A6;
+    --cor3: #023059;
+    --cor4: #0367A6;
+    --cor5: #024874;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.cabeçalho{
+    font-size: 20px;
+    padding: 25px;
+    text-align: end;
+    background-color: #0d486d;
+    font-family: New Amsterdam;
+    min-width: 320px;
+    max-width: 100%;
+    margin: auto;
+    
+}
+
+
+nav > a{
+    margin-right: 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#home:hover{
+    border-bottom: 1px solid white;
+    transition: all 200ms ease-in;
+}
+
+#quemsou:hover{
+    border-bottom: 1px solid white;
+    transition: all 200ms ease-in;
+}
+
+#habilidades:hover{
+    border-bottom: 1px solid white;
+    transition: all 200ms ease-in;
+}
+
+#contato:hover{
+    border-bottom: 1px solid white;
+    transition: all 200ms ease-in;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+}
+
+main{
+    background-image: url(Imagens/fundo\ tec.jpg);
+    padding: 5px;
+    min-width: 320px;
+    max-width: 100%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    margin-top: 0px;
+    padding: 5px;
+    float: center;
+    color: white;
+    font-size: 60px;
+    font-family: New Amsterdam
+}
+
+#desenvolvedor{
+    text-align: center;
+    margin-top: 0px;
+    padding: 5px;
+    float: center;
+    color: white;
+    font-size: 40px;
+    font-family: New Amsterdam;
+}
+
+.eu{
+    height: 230px;
+    height: 230px;
+    display: block;
+    margin: auto;
+
+}
+
+.quemsou{
+    color: white;
+    font-size: 40px ;
+    font-family: New Amsterdam;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#texto1{
+    color: white;
+    font-size: 25px;
+    margin-left: 450px;
+    font-family: Space Grotesk;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 100px;
+
+}
+
+#pag2{
+    background-image: url(Imagens/fundo-preto-com-fundo-azul-escuro_664601-3297.jpg);
+    padding: 5px;
+    min-width: 320px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.habilidades{
+   text-align: center;
+    padding: 5px;
+    float: center;
+    color: white;
+    margin-top: 50px;
+    font-size: 60px;
+    font-family: New Amsterdam;
+}
+
+.barra1:hover{
+    transform: scale(1.1);
+    transition: all 200ms ease;
+}
+
+.tabelas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.barra1{
+    background-color: var(--cor4);
+    width: 400px;
+    height: 200px;
+    margin-top: 80px;
+    padding: 0px;
+    border-radius: 20px;
+    margin-bottom: 250px;
+
+}
+
+#img1{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 0px;
+
+}
+
+#img2{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 0px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    font-family: Space Grotesk;
+    text-align: center;
+}
+
+#img3{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 0px;
+}
+
+#pag3{
+    background-image: url(Imagens/fundo-preto-com-fundo-azul-escuro_664601-3297.jpg);
+    padding: 5px;
+    min-width: 320px;
+    max-width: 100%;
+    margin: auto;
+
+}
+
+.contato{
+    text-align: center;
+     padding: 5px;
+     float: center;
+     color: white;
+     margin-top: 50px;
+     font-size: 60px;
+     font-family: New Amsterdam;
+ }
+
+.tabelas2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+#a1{
+    background-color: var(--cor4);
+    width: 300px;
+    height: 150px;
+    margin-top: 80px;
+    padding: 0px;
+    border-radius: 20px;
+}
+
+#a1:hover{
+    transform: scale(1.1);
+    transition: all 200ms ease;
+}
+
+#a2{
+    background-color: var(--cor4);
+    width: 300px;
+    height: 150px;
+    margin-top: 80px;
+    padding: 0px;
+    border-radius: 20px;
+}
+
+#a2:hover{
+    transform: scale(1.1);
+    transition: all 200ms ease;
+}
+
+#a3{
+    background-color: var(--cor4);
+    width: 300px;
+    height: 150px;
+    margin-top: 80px;
+    padding: 0px;
+    border-radius: 20px;
+}
+
+#a3:hover{
+    transform: scale(1.1);
+    transition: all 200ms ease;
+}
+
+.tabelas3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#a4{
+    background-color: var(--cor4);
+    width: 700px;
+    height: 100px;
+    margin-top: 40px;
+    padding: 0px;
+    border-radius: 20px;
+    margin-bottom: 200px;
+}
+
+#a4:hover{
+    transform: scale(1.1);
+    transition: all 200ms ease;
+}
+
+#img1-2{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#img1-3{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 0px;
+}
+
+footer{
+    background-color: black;
+    height: 40px;   
+    
+}
+
+#final{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
